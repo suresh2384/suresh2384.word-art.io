@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fdef3edea5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="main-page-content">
+        <div class="head">
+            <h4>WordleArt</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-8 canvas-wrap">
+                <div id="canvas-container">
+
+                    <canvas id="canvas">
+                    </canvas>
+                </div>
+
+            </div>
+            <div class="col-md-4 left-side-container">
+                <div class="list-words-wrap">
+                    <div class="list-head">
+                        <div class="total-words">
+                            <span>Selected Words</span>
+                        </div>
+                        <div id="word-count" class="word-count">
+                            0
+                        </div>
+                    </div>
+                    <div class="word-list" id="word-list">
+           
+         
+
+                    </div>
+                </div>
+                <div class="word-input-wrap">
+                    <div class="input-field">
+                        <label for="input"><i class="fa fa-search" aria-hidden="true"></i></label>
+                        <input type="text" placeholder="Enter words here" id="input-word">
+                    </div>
+                    <a href="" class="btn btn-primary" id="submit-btn">Submit</a>
+                </div>
+                <div class="canvas-size-wrap">
+                    <div class="width-btn size-btn">
+                        <div class="input-field">
+                            <input type="number" value="200" id="canvas-width">
+                            <label for="width">px</label>
+                        </div>
+                    </div>
+                    X
+                    <div class="height-btn size-btn">
+                        <div class="input-field">
+                            <input type="number" value="200" id="canvas-height">
+                            <label for="width">px</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="appearence-wrap">
+                    <div class="left">
+                        Appearence
+                    </div>
+                    <div class="color-options">
+                        <div class="color-item">
+
+                            <a href="" class="color-link white-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link green-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link orange-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link blue-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link purple-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link pastle-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link blue-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                        <div class="color-item">
+
+                            <a href="" class="color-link rajah-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-tools">
+                    <div class="download-wrap tools-btn-wrap">
+                        <a href="#" class="download-btn tool-btn-item">Download</a>
+                        
+                    </div>           
+                    <div class="share-wrap tools-btn-wrap">
+                        <a href="" class="share-btn tool-btn-item">Share</a>
+                        
+                    </div>           
+                </div>
+                <div class="close-btn">
+                    <a href="" class="close-link">Close</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="assets/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/wordlecloud2/wordcloud2.js"></script>
+  <script src="script/word.js"></script>
+  <!-- <script src="script/word-original.js"></script> -->
+</body>
+
+</html>
